@@ -389,8 +389,4 @@ if __name__ == '__main__':
 
     p = int(sys.argv[1])
     logging.info("start at port %s" % (p))
-<<<<<<< HEAD
     app.run(host='::', port=p, debug=True, threaded=True)
-=======
-    app.run(host='::', port=p, debug=True, threaded=True)
->>>>>>> conflict
